@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: poppins, sans-serif;
+
+
+}
+
+body {
+    background: #54cdf1;
+}
+
+
+.container {
+    position: relative;
+    padding-left: 160px;
+    padding-top: 160px;
+}
+
+.container h1 {
+    font-size: 60px;
+    font-weight: 600;
+
+
+}
+
+
+.container p {
+    font-weight: 500;
+    text-align: justify;
+}
+
+.form {
+    height: 500px;
+
+    top: 300px;
+    display: flex;
+    position: absolute;
+    background: white;
+    max-width: 500px;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+    margin: 20px auto;
+    padding: 30px;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.05),
+    inset -5px -5px 5px rgba(222, 222, 255, 0.5),
+    -5px -5px 5px rgba(0, 0, 0, 0.05),
+    -5px -5px 5px rgba(222, 222, 255, 0.5);
+    border-radius: 15px;
+
+}
+
+.form form {
+    width: 100%;
+}
+
+.inputfield {
+    font-size: 20px;
+    width: 50%;
+    margin-bottom: 15px;
+    display: grid;
+    align-items: center;
+}
+
+.inputfield label {
+    width: 200px;
+    color: #ffffff;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.inputfield input, .inputfield textarea {
+    width: 200px;
+    outline: none;
+    border: 1px solid #ffffff;
+    font-size: 15px;
+    padding: 8px 50px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+.inputfield textarea{
+      width: 100%;
+    height: 105px;
+    resize: none;
+}
+.inputfield textarea{
+    width: 400px;
+}
+
+.inputfield .btn:hover {
+    background: #0e5567;
+}
+
+.react{
+    height: 500px;
+    left: 730px;
+
+    top: 300px;
+    display: flex;
+    position: absolute;
+    max-width: 500px;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    margin: 20px auto;
+    padding: 30px;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.05),
+    inset -5px -5px 5px rgba(222, 222, 255, 0.5),
+    -5px -5px 5px rgba(0, 0, 0, 0.05),
+    -5px -5px 5px rgba(222, 222, 255, 0.5);
+    border-radius: 15px;
+
+
+}
+.last h3{
+    font-size: 20px;
+    color: white;
+}
+
+.last h4{
+    margin: auto;
+    font-size: 20px;
+    color: #1f1f1f;
+    text-align: justify-all;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.last h4 span{
+    padding-left: 30px;
+}
+.last img{
+    bottom: 20px;
+    position: relative;
+    left: 70px;
+}
+
+.foot{
+    margin:  80px 0 10px;
+    text-align: center;
+    position: relative;
+    top: 500px;
+
+}
+.foot a{
+    text-decoration: none;
+    color: #999;
+    font-size: 22px;
+    margin: 0 10px;
+}
+.foot hr{
+    background: #999;
+    height: 1px;
+    width: 100%;
+    border: 0;
+    margin: 20px 0;
+}
+.foot p{
+    padding-bottom: 15px;
+}
