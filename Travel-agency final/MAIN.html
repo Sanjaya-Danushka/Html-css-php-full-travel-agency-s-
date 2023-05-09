@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travel Bee</title>
+    <link rel="icon" href="MATIRIALS/logo_main.png">
+    <link rel="stylesheet" href="main_css.css">
+    <script src="https://kit.fontawesome.com/d58fc99c02.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!--logo create -->
+<div class="banner">
+    <video autoplay loop muted playsinline class="back_video">
+        <source src="MATIRIALS/main.mp4" type="video/mp4">
+
+    </video>
+    <div class="navbar">
+        <img src="MATIRIALS/logo_main.png" class="logo">
+
+        <!-- banner  create -->
+        <ul>
+            <li><a href="other pages/main/home.html"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li><a href="other pages/package/package.html"><i class="fa-solid fa-truck-fast"></i> Package</a></li>
+            <li><a href="other pages/gallery/GALLERY.html"><i class="fa-brands fa-envira"></i> Gallery</a></li>
+            <li><a href="other pages/about/about.html"><i class="fa-solid fa-address-book"></i> About us</a></li>
+            <li><a href="other pages/sign in-up/login/login.html"><i class="fa-solid fa-user"></i>Login</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <h1> It's A Big World<br>Out There,Go<br>Explore</h1>
+        <pre>
+        <p>Life is short and the world is wide.I better get started.“Always looking for views that take my breathAway.”
+               “I've decided to go to the world traveling part of my life.”“Let's wander where the wifi is weak.”
+                            Come on I'll be waiting for you.So what are you waiting for?.
+
+        </p>
+        </pre>
+        <div>
+            <button type="button"><a class="btn-b" href="other pages/main/home.html">Home</a></button>
+            <button type="button"><a href="other pages/package/package.html">Book Now</a></button>
+        </div>
+
+    </div>
+
+</div>
+
+    <div class="footbar">
+        <div class="nav-bar">
+            <div class="row">
+                <div class="foot-col">
+                    <h4>Pages</h4>
+                    <ul class="ab">
+                        <li><a href="other pages/main/home.html">Home</a></li>
+                        <li><a href="https://www.quora.com">FAQ</a></li>
+                        <li><a href="https://www.saltinourhair.com/sri-lanka">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="foot-col">
+                    <h4>Contact</h4>
+                    <ul class="ab">
+                        <li><a href="other pages/contact/contact.html">© 2023 Travel Bee (Pvt) LTD Sri Lanka (Reg: PV74658)</a></li>
+                        <li><a href="other pages/contact/contact.html">Email:Dsanjaya712@gmail.com</a></li>
+                        <li><a href="other pages/contact/contact.html">Call: +94 753 414 017</a></li>
+                    </ul>
+                </div>
+                <div class="foot-col">
+                    <h4>follow us</h4>
+                    <ul class="links">
+                        <li><a href="https://web.facebook.com/sanjaya.danushka.186"><i
+                                class="fa-brands fa-facebook"></i></a>
+
+                            <a href="https://github.com/Sanjaya-Danushka?fbclid=IwAR2E-zy2-UPlN-R8H33EuMnus0CerM0E9dovedV3SkEQ6gyfHlB2kugc0Tg"><i
+                                    class="fa-brands fa-github"></i></a>
+
+                            <a href="https://www.linkedin.com/in/sanjaya-danushka-51a98b249/?fbclid=IwAR1C8yPa48WOefFUeryKQbqjlOFldZRrsTIft_zXZx3y_JYGayBJWrBH9WU"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+
+
+                            <a href="https://stackoverflow.com/users/19921349/sanjaya?fbclid=IwAR2DvOqajnGHWLE_4nFXKrTFIryzEZV3cyD1_vA4v6adcXDuQXWFhBlRXLY"><i
+                                    class="fa-brands fa-stack-overflow"></i></a>
+                        </li>
+                    </ul>
+                     <div class="sound">
+     <p id="icon"><i class="fa-solid fa-play" ></i>Click here to listen</p>
+ </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+<audio id="song">
+    <source src="MATIRIALS/01.MP3" type="audio/mp3">
+</audio>
+<script>
+   var mysong = document.getElementById("song");
+   var icon = document.getElementById("icon");
+   icon.onclick= function (){
+       if(mysong.paused){
+           mysong.play();
+
+       }else{
+           mysong.pause();
+       }
+   }
+
+</script>
+
+
+</body>
+</html>
