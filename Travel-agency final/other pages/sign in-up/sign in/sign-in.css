@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+body {
+    background-image: url("include/1.png");
+}
+
+.form {
+    position: absolute;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+    left: 200px;
+    top: 300px;
+
+
+}
+
+.title {
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.input {
+    max-width: 380px;
+    width: 100%;
+    height: 55px;
+    background-color: #f0f0f0;
+    margin: 10px 0;
+    border-radius: 55px;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    padding: 0.4rem;
+}
+
+.input i {
+    text-align: center;
+    line-height: 55px;
+    color: #acacac;
+    font-size: 1.1rem;
+
+
+}
+
+.input input {
+    background: none;
+    outline: none;
+    border: none;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.input input::placeholder {
+    color: #aaa;
+    font-weight: 500;
+}
+
+.btn {
+    width: 150px;
+    height: 49px;
+    border: none;
+    outline: none;
+    border-radius: 49px;
+    cursor: pointer;
+    background-color: #1593da;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    transition: .5s;
+
+}
+
+.btn:hover {
+    background-color: #305493;
+    cursor: pointer;
+}
+
+.text h3 {
+    position: relative;
+    left: 1500px;
+    top: 260px;
+    font-weight: 600;
+    color: #ffffff;
+    padding-left: 20px;
+    font-size: 32px;
+
+}
+
+.text p {
+    position: relative;
+    left: 1400px;
+    top: 270px;
+    font-weight: 500;
+    padding-left: 20px;
+    font-size: 20px;
+    color: #ffffff;
+
+}
+
+.text a {
+    color: #ffffff;
+    background-color: #5995fd;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 10px 35px;
+    position: relative;
+    left: 1580px;
+    top: 370px;
+    border: 2px solid #fff;
+
+
+}
+.text a:hover{
+    color: #5995fd;
+    background: white;
+    border: 2px solid #00dcf8;
+}
+.img{
+    position: relative;
+    left: 1200px;
+    top: 340px;
+    width: 400px;
+}
