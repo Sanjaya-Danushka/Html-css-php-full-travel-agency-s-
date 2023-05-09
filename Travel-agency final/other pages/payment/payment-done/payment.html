@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewpoint" content="width = device-width,initial-scale=1.0">
+    <title>Travel Bee About</title>
+    <link rel="icon" href="include/logo_main.png">
+    <link rel="stylesheet" href="payment.css">
+    <script src="https://kit.fontawesome.com/d58fc99c02.js" crossorigin="anonymous"></script>
+    <script>
+        function check() {
+            if (document.getElementById('1').value === "") {
+                alert('please fill your bank detail');
+                return false;
+            } else if (document.getElementById('2').value === "") {
+                alert('please fill your bank detail');
+                return false;
+            } else if (document.getElementById('3').value === "") {
+                alert('please fill your bank detail');
+                return false;
+
+            }
+
+        }
+    </script>
+</head>
+<body>
+
+ <span class="booknow">
+        <a class="act" href="../../../MAIN.html"><i class="fa-solid fa-house"></i> Home</a>
+        <a class="act" href="../../update/form-main.php"><i class="fa-solid fa-wrench"></i> update</a>
+    </span>
+
+  <div class="container">
+      <h1>Double Check Your Details Before Order</h1>
+      <a class="act" href="../../update/form-main.php"><i class="fa-solid fa-wrench"></i> Update</a>
+        <h1>Confirm Your Payment</h1>
+        <div class="first-row">
+            <div class="owner">
+                <h3>Owner</h3>
+                <div class="input-field">
+                    <input type="text" id="1">
+                </div>
+            </div>
+            <div class="cvv">
+                <h3>CVV</h3>
+                <div class="input-field">
+                    <input type="password"id="2">
+                </div>
+            </div>
+        </div>
+        <div class="second-row">
+            <div class="card-number">
+                <h3>Card Number</h3>
+                <div class="input-field"id="3">
+                    <input type="int">
+                </div>
+            </div>
+        </div>
+        <div class="third-row">
+            <h3>year</h3>
+            <div class="selection">
+                <div class="date">
+                    <select name="months" id="months">
+                        <option value="Jan">Jan</option>
+                        <option value="Feb">Feb</option>
+                        <option value="Mar">Mar</option>
+                        <option value="Apr">Apr</option>
+                        <option value="May">May</option>
+                        <option value="Jun">Jun</option>
+                        <option value="Jul">Jul</option>
+                        <option value="Aug">Aug</option>
+                        <option value="Sep">Sep</option>
+                        <option value="Oct">Oct</option>
+                        <option value="Nov">Nov</option>
+                        <option value="Dec">Dec</option>
+                      </select>
+                      <select name="years" id="years">
+                        <option value="2020">2020</option>
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                        <option value="2017">2017</option>
+                        <option value="2016">2016</option>
+                        <option value="2015">2015</option>
+                      </select>
+                </div>
+                <div class="cards">
+                    <img src="1.png" alt="">
+                    <img src="2.png" alt="">
+                    <img src="3.png" alt="">
+                </div>
+            </div>
+        </div>
+        <a href="../../last/last.html"  onclick="return check()">Confirm</a>
+    </div>
+    
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: poppins, sans-serif;
+
+
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("include/wall3.jpg");
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section {
+    width: 90%;
+    min-height: 100vh;
+
+
+}
+
+.container {
+    right: 90px;
+    position: relative;
+    width: 850px;
+    height: 550px;
+    border: 1px solid;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.05),
+    inset -5px -5px 5px rgba(222, 222, 255, 0.5),
+    -5px -5px 5px rgba(0, 0, 0, 0.05),
+    -5px -5px 5px rgba(222, 222, 255, 0.5);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    justify-content: space-around;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.first-row {
+    display: flex;
+}
+
+.owner {
+    width: 100%;
+    margin-right: 40px;
+}
+
+.input-field {
+    border: 1px solid #999;
+}
+
+.input-field input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+
+.selection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.selection select {
+    padding: 10px 20px;
+}
+
+a {
+    background-color: #257894;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+a:hover {
+    background-color: dodgerblue;
+}
+
+.cards img {
+    width: 100px;
+}
+
+
+.booknow {
+    position: relative;
+    left: 800px;
+    bottom: 300px;
+
+    float: right;
+    line-height: 80px;
+    margin-right: 30px;
+    margin-top: -100px;
+}
+
+.booknow a {
+    background: #fff;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.act {
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 6px 25px;
+
+}
+
+.booknow a:hover {
+    background: #000;
+    color: #fff;
+    border-color: black;
+}
+.wrapper {
+    left: 200px;
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+    backdrop-filter: blur();
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2));
+    margin: 20px auto;
+    border-style: ridge;
+    padding: 30px;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.05),
+    inset -5px -5px 5px rgba(222, 222, 255, 0.5),
+    -5px -5px 5px rgba(0, 0, 0, 0.05),
+    -5px -5px 5px rgba(222, 222, 255, 0.5);
+    border-radius: 15px;
+}
+
+.wrapper .title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.wrapper form {
+    width: 100%;
+}
+
+.wrapper form .inputfield {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+
+}
+
+.wrapper form .inputfield label {
+    width: 200px;
+    color: #000000;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.wrapper form .inputfield .input,
+.wrapper form .inputfield .textarea {
+    width: 100%;
+    outline: none;
+    border: 1px solid #383838;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.wrapper form .inputfield .textarea {
+    width: 100%;
+    height: 125px;
+    resize: none;
+}
+
+.wrapper form .inputfield .custom_select {
+    position: relative;
+    width: 100%;
+    height: 37px;
+
+}
+
+.wrapper form .inputfield .custom_select:before {
+    content: "";
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    border: 8px solid;
+    border-color: #000000 transparent transparent transparent;
+    pointer-events: none;
+}
+
+.wrapper form .inputfield .custom_select select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    padding: 8px 10px;
+    font-size: 15px;
+    border: 1px solid #000000;
+    border-radius: 6px;
+}
+
+
+.wrapper form .inputfield .input:focus,
+.wrapper form .inputfield .textarea:focus,
+.wrapper form .inputfield .custom_select select:focus {
+    border: 1px solid #090909;
+}
+
+.wrapper form .inputfield p {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.wrapper form .inputfield .check {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    display: block;
+    cursor: pointer;
+}
+
+.wrapper form .inputfield .check input[type="checkbox"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.wrapper form .inputfield .check .checkmark {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #2c6c83;
+    display: block;
+    position: relative;
+}
+
+.wrapper form .inputfield .check .checkmark:before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 2px;
+    width: 5px;
+    height: 2px;
+    border: 2px solid;
+    border-color: transparent transparent #000000 #000000;
+    transform: rotate(-45deg);
+    display: none;
+}
+
+.wrapper form .inputfield .check input[type="checkbox"]:checked ~ .checkmark {
+    background: #258dc5;
+}
+
+.wrapper form .inputfield .check input[type="checkbox"]:checked ~ .checkmark:before {
+    display: block;
+}
+
+.wrapper form .inputfield .btn {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 15px;
+    background: #257f9f;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+}
+
+.wrapper form .inputfield .btn:hover {
+    background: #1f4564;
+}
+
+.wrapper form .inputfield:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 420px) {
+    .wrapper form .inputfield {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .wrapper form .inputfield label {
+        margin-bottom: 5px;
+    }
+
+    .wrapper form .inputfield.terms {
+        flex-direction: row;
+    }
+}
+.last-row{
+    border-radius: 13px;
+    border-style: ridge;
+    background: #8efa1c;
+    right: 30rem;
+    color: black;
+    font-size: 30px;
+    bottom: 830px;
+    display: flex;
+    position: absolute;
+}
+
